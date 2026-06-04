@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10vh;       
+    padding-bottom: 10vh;
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+/* Section Styling */
+section {
+    width: 100%;             
+    height: 100%;            
+    border: 2px solid #000;
+}
+
+/* Image Box */
+.imageBox {
+    width: 100%;
+    height: 72vh;   
+}
+
+/* Image fills its container */
+.imageBox img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Button Box */
+.buttonBox {
+    width: 100%;
+    height: 8vh;
+    background: linear-gradient(to right, orange, limegreen);  
+    display: table;              
+}
+
+
+/* Button */
+.buttonBox button {
+    width: 100%;
+    height: 8vh;
+    border: none;
+    background: transparent;     
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+}
